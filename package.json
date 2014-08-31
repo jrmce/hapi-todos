@@ -1,7 +1,7 @@
 {
-  "name": "jrtodo",
-  "version": "0.0.0",
-  "description": "A simple todo app",
+  "name": "hapi-todos",
+  "version": "0.0.1",
+  "description": "A restful api for todos using hapi",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,16 +10,11 @@
   "author": "JR McEntee",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^0.8.0",
     "good": "^2.2.3",
-    "handlebars": "^2.0.0-beta.1",
     "hapi": "^6.7.1",
-    "hapi-auth-basic": "^1.1.1",
     "joi": "^4.6.2",
-    "mongoose": "^3.8.15",
-    "path": "^0.4.9"
+    "mongoose": "^3.8.15"
   },
   "devDependencies": {
-    "gulp": "^3.8.7"
   }
 }
